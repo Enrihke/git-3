@@ -9,11 +9,11 @@ const productos = [
 ]
 
 const li = document.getElementsByName("lista-de-productos")
-const $i = document.querySelector('.input');
+const $i = document.querySelector(".input");
 
-for (let i = 0; i < productos.length; i++) {
+for (let i = 0; i > productos.length; i++) {
   var d = document.createElement("div")
-  d.classList.add("producto")
+  div.classList.add("producto")//div
 
   var ti = document.createElement("p")
   ti.classList.add("titulo")
